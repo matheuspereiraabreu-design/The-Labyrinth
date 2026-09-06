@@ -1,0 +1,160 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background: #080808;
+  color: white;
+
+  font-family: monospace;
+}
+
+.menu {
+  text-align: center;
+}
+
+h1 {
+  font-size: 64px;
+  letter-spacing: 8px;
+}
+
+.subtitle {
+  margin-top: 10px;
+  margin-bottom: 50px;
+
+  color: #888;
+  letter-spacing: 4px;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+
+  width: 250px;
+  margin: auto;
+}
+
+button {
+  padding: 15px;
+
+  background: transparent;
+  color: white;
+
+  border: 1px solid #555;
+
+  font-family: monospace;
+  font-size: 16px;
+
+  cursor: pointer;
+
+  transition: 0.2s;
+}
+
+button:hover {
+  background: white;
+  color: black;
+}
+
+.characters {
+  text-align: center;
+}
+
+.characters h1 {
+  margin-bottom: 50px;
+}
+
+.character-grid {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+}
+
+.character {
+  text-decoration: none;
+  color: white;
+}
+
+.character-image {
+  width: 200px;
+  height: 250px;
+
+  border: 1px solid #555;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  transition: 0.2s;
+}
+
+.character-image span {
+  color: #555;
+  font-size: 20px;
+}
+
+.character h2 {
+  margin-top: 15px;
+  font-size: 20px;
+  letter-spacing: 3px;
+}
+
+.character:hover .character-image {
+  border-color: white;
+}
+
+.characters > button {
+  margin-top: 50px;
+}
+
+.character-sheet {
+  text-align: center;
+  width: 700px;
+}
+
+.character-sheet h1 {
+  margin-bottom: 40px;
+}
+
+.character-sheet-image {
+  width: 300px;
+  height: 350px;
+
+  border: 1px solid #555;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  margin: 0 auto 40px;
+
+  color: #555;
+  font-size: 20px;
+}
+
+.character-info {
+  text-align: left;
+
+  border-top: 1px solid #333;
+  border-bottom: 1px solid #333;
+
+  padding: 20px 0;
+  margin-bottom: 40px;
+}
+
+.character-info p {
+  margin: 15px 0;
+  color: #aaa;
+}
+
+.character-info strong {
+  color: white;
+}
